@@ -1,0 +1,83 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <title>Amy's Website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="css/my-styles.css">
+    </head>
+
+    <body>
+        <div>
+            <header class="w3-container topHeader"> <!--w3-container adds 16 pixels of padding 
+                    around each element; w3-green makes the background green -->
+                <h1>Amy Wu - Portfolio</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="resume.html">Resume</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="w3-container">
+                <h1 style="text-align: center;">My Gallery</h1>
+            </div>
+            <button id="toggleButton">View Photo Gallery</button>
+
+            <div id="content1" class="content-box">
+                <div class="design-gallery">
+                    <section class="w3-row-padding row-color-1">
+
+                        <article class="w3-col s12 m4 l4">
+                            <h4>Mid Autumn Festival Website Design</h4>
+                            <p><img src="assets/MidAutumn.jpg"></p>
+                        </article>
+                        <article class="w3-col s12 m4 l4">
+                            <h4>Winnie the Pooh</h4>
+                            <p><img src="assets/Pooh.jpg"></p>
+                        </article>
+                        <article class="w3-col s12 m4 l4">
+                            <h4>Chinatown Flyer</h4>
+                            <p><img src="assets/CTflyer.JPG"></p>
+                        </article>
+                    </section>
+                </div>
+            </div>
+
+            <div id="content2" class="content-box" style="display: none;">
+                <section class="w3-row-padding row-color-1">
+
+                    <article class="w3-col s12 m4 l4">
+                        <h4>Coffee</h4>
+                        <p><img src="assets/Coffee72.jpg"></p>
+                    </article>
+                    <article class="w3-col s12 m4 l4">
+                        <h4>Miami</h4>
+                        <p><img src="assets/miami72.jpg"></p>
+                    </article>
+                    <article class="w3-col s12 m4 l4">
+                        <h4>Flowers</h4>
+                        <p><img src="assets/flowers72.jpg"></p>
+                    </article>
+                    <article class="w3-col s12 m4 l4">
+                        <h4>Sunset</h4>
+                        <p><img src="assets/Sunset72.jpg"></p>
+                    </article>
+                </section>
+            </div>
+            
+            <div class="photo-gallery">
+
+            </div>
+            <footer>
+                <p>&copy; Copyright 2020</p>
+            </footer>
+        </div>
+        <script src="gallery.js"></script>
+    </body>
+
+    </html>
